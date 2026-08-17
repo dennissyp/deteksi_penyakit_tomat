@@ -84,7 +84,7 @@ model = load_classification_model()
 st.title("🍅 Klasifikasi Penyakit pada Buah Tomat")
 
 st.write(
-    "Unggah citra buah tomat untuk mendeteksi jenis penyakit "
+    "Unggah citra buah tomat untuk mengetahui jenis penyakitnya "
     "menggunakan model Convolutional Neural Network (CNN) "
     "dengan arsitektur MobileNetV2."
 )

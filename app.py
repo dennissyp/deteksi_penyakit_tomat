@@ -10,7 +10,7 @@ from PIL import Image
 # ============================================================
 
 st.set_page_config(
-    page_title="Deteksi Penyakit Buah Tomat",
+    page_title="Klasifikasi Penyakit Buah Tomat",
     page_icon="🍅",
     layout="centered"
 )
@@ -81,7 +81,7 @@ model = load_classification_model()
 # ANTARMUKA
 # ============================================================
 
-st.title("🍅 Deteksi Penyakit pada Buah Tomat")
+st.title("🍅 Klasifikasi Penyakit pada Buah Tomat")
 
 st.write(
     "Unggah citra buah tomat untuk mendeteksi jenis penyakit "
